@@ -1,0 +1,10 @@
+{
+  "gdrive": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-gdrive"],
+    "env": {
+      "GDRIVE_OAUTH_PATH": "${GDRIVE_OAUTH_PATH}",
+      "GDRIVE_CREDENTIALS_PATH": "${GDRIVE_CREDENTIALS_PATH}"
+    }
+  }
+}

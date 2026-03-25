@@ -4,6 +4,8 @@ argument-hint: Optional folder name or ID to organise (defaults to My Drive root
 allowed-tools: ["Task", "TodoWrite", "AskUserQuestion"]
 ---
 
+> **Write access required.** This command moves files between folders. The official `@modelcontextprotocol/server-gdrive` package is read-only and cannot perform moves. You need a write-capable MCP server with `drive` scope. Run `/gdrive-setup` for setup help, or use `/gdrive-audit` for a read-only folder analysis.
+
 # Google Drive Organiser
 
 Organise files in Google Drive by grouping them into type-based folders.

@@ -4,6 +4,8 @@ argument-hint: Optional folder name or ID to scan (defaults to My Drive root)
 allowed-tools: ["Task", "TodoWrite", "AskUserQuestion"]
 ---
 
+> **Write access required.** This command moves files to Trash. The official `@modelcontextprotocol/server-gdrive` package is read-only and cannot perform moves or deletions. You need a write-capable MCP server with `drive` scope. Run `/gdrive-setup` for setup help, or use `/gdrive-audit` for a read-only folder analysis.
+
 # Google Drive Cleaner
 
 Detect duplicates and surface large or old files so you can reclaim storage space.

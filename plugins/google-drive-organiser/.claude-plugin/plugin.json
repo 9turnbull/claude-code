@@ -1,0 +1,9 @@
+{
+  "name": "google-drive-organiser",
+  "version": "1.0.0",
+  "description": "Organise and clean up Google Drive: sort files by type, detect duplicates, flag large/old files, and audit folder structure via the Google Drive MCP server",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

@@ -181,7 +181,7 @@ def extract_frontmatter(content: str) -> tuple[Dict[str, Any], str]:
                 in_dict_item = False
 
         # Continuation of dict item (indented under list item)
-        elif indent > 2 and in_dict_item and ':' in line:
+        elif indent >= 2 and in_dict_item and ':' in line:
             # This is a field of the current dict item
             k, v = stripped.split(':', 1)
             current_dict[k.strip()] = v.strip().strip('"').strip("'")
